@@ -11,27 +11,30 @@ You’ll use `vite` to build your portfolio, which will include the following:
 **Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
-1. In the command line, navigate to the desired parent folder and run `npm create vite@latest`.
-    * 🔑 *Note*: This command will automatically create a sub-folder which will house your React application; you do not need to perform a `mkdir` command to create one manually.
-2. Enter the desired name of your new project folder.
-3. From the first list of options, select your framework; for our activities in class, we'll be using `React`.
-4. From the second list of options, select your variant; for our activities in class, we'll be using `JavaScript`.
-5. `cd` into your newly created project folder and run `npm install`.
-    * In later activities we'll add additional NPM packages to our `vite` apps such as 'bootstrap', 'dotenv', and 'axios'.
-6. Run `npm dev`/`npm run dev` and navigate to the prompted URL to see your app.
+<div style="color:pink">
+<ol>
+<li>In the command line, navigate to the desired parent folder and run `npm create vite@latest`.<br/>
+    * 🔑 *Note*: This command will automatically create a sub-folder which will house your React application; you do not need to perform a `mkdir` command to create one manually.</li>
+<li>Enter the desired name of your new project folder.</li>
+<li>From the first list of options, select your framework; for our activities in class, we'll be using `React`.</li>
+<li>From the second list of options, select your variant; for our activities in class, we'll be using `JavaScript`.</li>
+<li>`cd` into your newly created project folder and run `npm install`.
+    * In later activities we'll add additional NPM packages to our `vite` apps such as 'bootstrap', 'dotenv', and 'axios'.</li>
+<li>Run `npm dev`/`npm run dev` and navigate to the prompted URL to see your app.</li>
+</div>
 
 ### Further customization (Recommended)
 
 1. Navigate to your `package.json` and modify the `scripts` object so that it looks like this example:
 
 ```json
-  "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+    "scripts": {
+      "dev": "vite",
+      "start": "vite",
+      "build": "vite build",
+      "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
 ```
 
 * Note the addition of the `"start": "vite"` script.
@@ -39,11 +42,11 @@ You’ll use `vite` to build your portfolio, which will include the following:
 2. Navigate to the `vite.config.js` file and edit the export object so that it looks like this example:
 
 ```js
-export default defineConfig({
-  plugins: [react()],
-  server: {
-    port: 3000,
-    open: true
+    export default defineConfig({
+      plugins: [react()],
+      server: {
+        port: 3000,
+        open: true
   }
 })
 ```
