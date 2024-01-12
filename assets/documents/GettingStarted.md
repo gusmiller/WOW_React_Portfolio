@@ -45,7 +45,7 @@ You’ll use `vite` to build your portfolio, which will include the following:
     export default defineConfig({
       plugins: [react()],
       server: {
-        port: 3000,
+        port: 3001,
         open: true
   }
 })
