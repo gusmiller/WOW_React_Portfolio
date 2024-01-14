@@ -4,18 +4,19 @@
  * License: free and unencumbered software
  * Assignment # 20 - React Portfolio
  * 
+ * Filename: main.jsx
  * Date : 1/10/2024 8:03:28 AM
  *******************************************************************/
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './App.jsx'
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import About from './pages/About';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'

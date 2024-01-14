@@ -4,6 +4,7 @@
  * License: free and unencumbered software
  * Assignment # 20 - React Portfolio
  * 
+ * * Filename: App.jsx
  * Date : 1/10/2024 8:03:28 AM
  * 
  * The Outlet component will conditionally swap between the different
@@ -16,7 +17,7 @@ function App() {
      return (
           <>
                <NavigationBar />
-               <main className="mx-3">
+               <main className="mx-0">
                     <Outlet />
                </main>
           </>
