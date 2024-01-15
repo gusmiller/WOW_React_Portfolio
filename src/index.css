@@ -144,3 +144,40 @@ button:focus-visible {
 }
 
 /*----- END OF HERO -----*/
+
+/*-------------------------------------------------------------------------------
+   Contacts styling css
+  --------------------------------------------------------------------------------*/
+.card {
+     width: 90% !important;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.about-card {
+     width: 550px;
+     background-color: #efefef;
+     border: none;
+     cursor: pointer;
+     transition: all 0.5s;
+}
+
+/*----- End of Contacts -----*/
+
+.emailaddress {
+     font-size: 18px;
+     font-weight: 600
+}
+
+.name {
+     font-size: 22px;
+     font-weight: bold
+}
+
+.image img {
+     transition: all 0.5s
+}
+
+.about-card:hover .image img {
+     transform: scale(1.25)
+}
