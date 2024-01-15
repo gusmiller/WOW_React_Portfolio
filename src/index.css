@@ -221,7 +221,8 @@ button:focus-visible {
 
 .project-progress {
      height: 10px;
-     border-radius: 10px
+     border-radius: 10px;
+     background: rgb(36, 104, 36)
 }
 
 .project-progress div {
