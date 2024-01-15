@@ -4,17 +4,50 @@
  * License: free and unencumbered software
  * Assignment # 20 - React Portfolio
  * 
+ * Filename: main.jsx
  * Date : 1/10/2024 8:03:28 AM
  *******************************************************************/
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+// Bringing in the pages the router will use to conditionally show the appropriate views
+import App from './App';
+import Error from './pages/Error';
+import Home from './pages/home';
+import Projects from './pages/projects/projects';
+import Contact from './pages/contact/contact';
+import About from './pages/about/about';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+     {
+          path: '/',
+          element: <App />,
+          errorElement: <Error />,
+          children: [
+               {
+                    index: true,
+                    element: <Home />,
+               },
+               {
+                    path: '/Projects',
+                    element: <Projects />,
+               },
+               {
+                    path: '/Contact',
+                    element: <Contact />,
+               },
+               {
+                    path: '/About',
+                    element: <About />,
+               },
+          ],
+     },
+]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-     <React.StrictMode>
-          <App />
-     </React.StrictMode>,
-)
+     <RouterProvider router={router} />
+);

@@ -1,11 +1,3 @@
-/*******************************************************************
- * Carleton Bootcamp - 2024
- * Copyright 2024 Gustavo Miller
- * License: free and unencumbered software
- * Assignment # 20 - React Portfolio
- * 
- * Date : 1/10/2024 8:03:28 AM
- *******************************************************************/
 :root {
      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
      line-height: 1.5;
@@ -13,12 +5,18 @@
 
      color-scheme: light dark;
      color: rgba(255, 255, 255, 0.87);
-     background-color: #242424;
+     background: #242424;
 
      font-synthesis: none;
      text-rendering: optimizeLegibility;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
+     -webkit-text-size-adjust: 100%;
+
+     --line-and-half: 1.5;
+     --large-header-title: 48px;
+     --background-body-color: rgb(176, 187, 198);
+     --gradient-theme: rgb(42, 96, 124);
 }
 
 a {
@@ -33,8 +31,6 @@ a:hover {
 
 body {
      margin: 0;
-     display: flex;
-     place-items: center;
      min-width: 320px;
      min-height: 100vh;
 }
@@ -51,7 +47,7 @@ button {
      font-size: 1em;
      font-weight: 500;
      font-family: inherit;
-     background-color: #1a1a1a;
+     background: #1a1a1a;
      cursor: pointer;
      transition: border-color 0.25s;
 }
@@ -65,10 +61,17 @@ button:focus-visible {
      outline: 4px auto -webkit-focus-ring-color;
 }
 
+.profile-footer {
+     text-align: center;
+     position: fixed;
+     inset: auto 0 0 0;
+     padding: 1em;
+}
+
 @media (prefers-color-scheme: light) {
      :root {
           color: #213547;
-          background-color: #ffffff;
+          background: #ffffff;
      }
 
      a:hover {
@@ -76,6 +79,161 @@ button:focus-visible {
      }
 
      button {
-          background-color: #f9f9f9;
+          background: #f9f9f9;
      }
+}
+
+/*-------------------------------------------------------------------------------
+   The hero section is the entry point of the application. It presents a graphical 
+   splash screen and options are available at nav bar
+  --------------------------------------------------------------------------------*/
+.hero {
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     text-align: center;
+     color: white;
+}
+
+.hero img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.hero .centered {
+     width: 50%;
+     position: absolute;
+     top: 50%;
+     left: 75%;
+
+     transform: translate(-50%, -50%);
+}
+
+.hero .hero-container {
+     position: absolute;
+     bottom: 0;
+     top: 0;
+     left: 0;
+     right: 0;
+
+     display: flex;
+     padding-top: 40px;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     align-items: flex-end;
+     margin: 10px 50px 20px 0;
+     color: #fff;
+}
+
+.hero h1 {
+     font-size: var(--large-header-title);
+     font-weight: 300;
+     line-height: 56px;
+}
+
+.hero p {
+     font-size: 20px;
+     font-style: italic;
+}
+
+.hero p:hover {
+     color: #cbcb5f;
+     font-size: 28px;
+}
+
+/*----- END OF HERO -----*/
+
+/*-------------------------------------------------------------------------------
+   Contacts styling css
+  --------------------------------------------------------------------------------*/
+.card {
+     width: 90% !important;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.about-card {
+     width: 550px;
+     background: #efefef;
+     border: none;
+     cursor: pointer;
+     transition: all 0.5s;
+}
+
+/*----- End of Contacts -----*/
+
+.emailaddress {
+     font-size: 18px;
+     font-weight: 600
+}
+
+.name {
+     font-size: 22px;
+     font-weight: bold
+}
+
+.image img {
+     transition: all 0.5s
+}
+
+.about-card:hover .image img {
+     transform: scale(1.25)
+}
+
+/*-------------------------------------------------------------------------------
+   Projects styling css
+--------------------------------------------------------------------------------*/
+.project-card {
+     border: none;
+     border-radius: 10px;
+     background: lightgray;
+}
+
+.c-details span {
+     font-weight: 300;
+     font-size: 13px
+}
+
+.project-icon {
+     width: 50px;
+     height: 50px;
+     background: #eee;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 39px
+}
+
+.project-badge span {
+     background: #fffbec;
+     width: 60px;
+     height: 25px;
+     padding-bottom: 3px;
+     border-radius: 5px;
+     display: flex;
+     color: #fed85d;
+     justify-content: center;
+     align-items: center
+}
+
+.project-progress {
+     height: 10px;
+     border-radius: 10px;
+     background: rgb(36, 104, 36)
+}
+
+.project-progress div {
+     background: red
+}
+
+.text1 {
+     font-size: 14px;
+     font-weight: 600
+}
+
+.text2 {
+     color: #a5aec0
 }
