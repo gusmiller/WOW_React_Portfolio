@@ -7,7 +7,7 @@
  * Filename: projectheader.jsx
  * Date : 1/14/2024 22:07:18 PM
  *******************************************************************/
-export default function Contactheader() {
+export default function Projectheader() {
      return (
           <div className="text-center mt-5 ">
                <h1 className="mb-5">Projects Developed</h1>

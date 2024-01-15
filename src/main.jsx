@@ -14,9 +14,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/home';
-import Projects from './pages/projects/projects';
-import Contact from './pages/contact/contact';
-import About from './pages/about/about';
+import Projects from './pages/projects';
+import Contact from './pages/contact';
+import About from './pages/about';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
