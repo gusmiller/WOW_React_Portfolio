@@ -189,6 +189,7 @@ button:focus-visible {
      border: none;
      border-radius: 10px;
      background: lightgray;
+     width: 22rem;
 }
 
 .c-details span {

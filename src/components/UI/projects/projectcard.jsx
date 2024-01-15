@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
                          <div className="d-flex flex-row align-items-center">
                               <div className="project-icon"> <i className="bx bxl-mailchimp"></i> </div>
                               <div className="ms-2 c-details">
-                                   <h6 className="mb-0">{props.reponame}</h6> <span>{props.longago}</span>
+                                   <h6 className="mb-0">{props.reponame}</h6> <span>{props.published}</span>
                               </div>
                          </div>
                          <div className="project-badge"> <span>Design</span> </div>
