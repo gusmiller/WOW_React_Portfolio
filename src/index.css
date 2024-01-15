@@ -209,25 +209,14 @@ button:focus-visible {
 }
 
 .project-badge span {
-     background: #fffbec;
-     width: 60px;
+     background: rgb(112, 61, 232);
      height: 25px;
-     padding-bottom: 3px;
+     padding: 5px;
      border-radius: 5px;
      display: flex;
      color: #fed85d;
      justify-content: center;
      align-items: center
-}
-
-.project-progress {
-     height: 10px;
-     border-radius: 10px;
-     background: rgb(36, 104, 36)
-}
-
-.project-progress div {
-     background: red
 }
 
 .text1 {
