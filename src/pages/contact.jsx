@@ -7,7 +7,7 @@
  * Filename: Contact
  * Date : 1/14/2024 15:43:18 PM
  *******************************************************************/
-import ContactHeader from '../../components/UI/contact/contactheader';
+import ContactHeader from '../components/UI/contact/contactheader';
 
 export default function Contact() {
      return (

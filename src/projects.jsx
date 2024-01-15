@@ -6,8 +6,8 @@
  * 
  * Date : 1/14/2024 15:43:18 PM
  *******************************************************************/
-import ContactHeader from './projectheader';
-import ProjectCard from './projectcard';
+import ContactHeader from './components/UI/projects/projectheader';
+import ProjectCard from './components/UI/projects/projectcard';
 
 export default function Projects() {
      return (
