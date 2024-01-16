@@ -17,6 +17,7 @@ import Home from './pages/home';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import About from './pages/about';
+import Resume from './pages/resume';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
                     path: '/About',
                     element: <About />,
                },
+               {
+                    path: '/Resume',
+                    element: <Resume />
+               }
           ],
      },
 ]);

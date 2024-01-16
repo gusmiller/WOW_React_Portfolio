@@ -22,6 +22,7 @@ export default function ProjectCard(props) {
                     </div>
                     <div className="mt-5">
                          <h3 className="heading"> <a target="_blank" href={props.appurl}>{props.name}</a> </h3>
+                         <p>Click here for <a href={props.reponame} className="gihub-repo">Github Repository</a></p>
                          <div className="mt-5">
                               <div className="progress">
                                    <div className={props.classname} role="progressbar"></div>

@@ -12,7 +12,6 @@ import ResumeHeader from '../components/UI/resume/header';
 export default function Resume() {
      return (
           <div className="container mt-5">
-               <ContactHeader />
                <ResumeHeader />
           </div>
      );

@@ -7,28 +7,28 @@
  * Filename: contactheader.jsx
  * Date : 1/14/2024 15:43:18 PM
  *******************************************************************/
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 export default function Resumeheader() {
      return (
-          <div className="row ">
-               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p className="font-italic">
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                         magna aliqua.
+          <div className="row">
+               <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 mr-1">
+                    <h3>More then 25 years developing software.</h3>
+                    <p className="fst-italic">
+                         Since I started my career Developing software I have need had a boring day in my life. Every contract has been exhilirating and challenging at the same time. In all my years I have seen the industry change from MS-Dos, Windows to SmartPhones!
                     </p>
                     <ul>
-                         <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                         <li><i className="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                         <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                         <li>ASP.Net 7.0 Core - Microsoft.</li>
+                         <li>Javascripts / NodeJS / Express.</li>
+                         <li>Database modeling in SQL Server / MySQL / Mongo.</li>
                     </ul>
                     <p>
-                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                         culpa qui officia deserunt mollit anim id est laborum
+                         In this last stretch of my career I decided to pursue a University Certification in my field. And so, I register myself into Carelton University Coding Bootcamp. In this intense program I have learn so many new skill to add to my already set of skill that I have brushed over the years.                         
                     </p>
+                    <p>Here is a copy of <a href="../assets/documents/gustavo miller@miller-hs.pdf">Gustavo Miller</a> latest resume</p>
                </div>
                <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/features-1.png" alt="" className="img-fluid" />
+                    <img target="_blank" src="../public/resume.png" alt="" className="img-fluid" />
                </div>
           </div >
      )
