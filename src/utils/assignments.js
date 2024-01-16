@@ -18,7 +18,7 @@ var assignments = [
           reponame: "https://github.com/gusmiller/PWA-Editor",
           barsize: "75",
           grade: "95%",
-          imageurl: "../public/pwseditor.png",
+          imageurl: "/pwseditor.png",
           nameclass: "progress-bar w-75",
           emoji: "bx bxl-linkedin"
      },
@@ -32,7 +32,7 @@ var assignments = [
           reponame: "https://github.com/gusmiller/Code-Quiz-App",
           barsize: "75",
           grade: "98%",
-          imageurl: "../public/codequiz.png",
+          imageurl: "/codequiz.png",
           nameclass: "progress-bar w-100",
           emoji: "bx bxl-linkedin"
      },
@@ -45,7 +45,7 @@ var assignments = [
           imagePath: "",
           reponame: "https://github.com/gusmiller/CMS-Database",
           barsize: "100",
-          imageurl: "../public/employeetracker.png",
+          imageurl: "/employeetracker.png",
           grade: "100%",
           nameclass: "progress-bar w-75",
           emoji: "bx bxl-mailchimp"
@@ -59,7 +59,7 @@ var assignments = [
           imagePath: "",
           reponame: "https://github.com/gusmiller/work_day_scheduler",
           barsize: "100",
-          imageurl: "../public/workscheduler.png",
+          imageurl: "/workscheduler.png",
           grade: "100%",
           nameclass: "progress-bar w-75",
           emoji: "bx bxl-linkedin"
@@ -73,7 +73,7 @@ var assignments = [
           imagePath: "",
           reponame: "https://github.com/gusmiller/Weather-dashboard",
           barsize: "100",
-          imageurl: "../public/weatherdash.png",
+          imageurl: "/weatherdash.png",
           grade: "100%",
           nameclass: "progress-bar w-100",
           emoji: "bx bxl-mastercard"
@@ -87,7 +87,7 @@ var assignments = [
           imagePath: "",
           reponame: "https://github.com/gusmiller/Javascripts",
           barsize: "100",
-          imageurl: "../public/pwdgen.png",
+          imageurl: "/pwdgen.png",
           grade: "100%",
           nameclass: "progress-bar w-100",
           emoji: "bx bxl-jsfiddle"
@@ -101,7 +101,7 @@ var assignments = [
           imagePath: "",
           reponame: "https://github.com/gusmiller/Javascripts",
           barsize: "100",
-          imageurl: "../public/cravings.png",
+          imageurl: "/cravings.png",
           grade: "95%",
           nameclass: "progress-bar w-75",
           emoji: "bx bxl-mailchimp"
