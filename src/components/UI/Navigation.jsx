@@ -10,9 +10,9 @@
 export default function Navigation({ links }) {
      return (
 
-          <nav className="navbar bg-primary navbar-dark navbar-expand-lg fixed-top">
+          <nav className="navbar bg-primary navbar-dark navbar-expand-lg">
                <div className="container">
-                    <a to="/" className="navbar-brand"><i className="fa fa-cross" aria-hidden="true"></i> Gustavo Miller</a>
+                    <span className="navbar-brand"><i className="fa fa-smile-o" aria-hidden="true"></i> Gustavo Miller</span>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                          <span className="navbar-toggler-icon"></span>

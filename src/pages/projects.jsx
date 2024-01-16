@@ -19,7 +19,7 @@ export default function Projects() {
                     <ContactHeader />
                </div>
 
-               <div className="row justify-content-between gap">
+               <div className="row justify-content-between">
 
                     {assignments
                          .map((assignments, index) => (

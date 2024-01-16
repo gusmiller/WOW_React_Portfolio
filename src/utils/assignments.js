@@ -9,52 +9,88 @@
  *******************************************************************/
 var assignments = [
      {
-          name: "Code Quiz",
-          published: "June 2023",
-          repo: "gitHub",
-          stack: "javascript",
-          urladdress: "https://gusmiller.github.io/Code-Quiz-App/",
+          name: "PWA Editor JATE",
+          published: "January 13, 2024",
+          repo: "heroku",
+          stack: "NodeJS - PWA",
+          urladdress: "https://pwa-myeditor-238ff16eb3c7.herokuapp.com/",
           imagePath: "",
-          reponame: "https://github.com/gusmiller/Code-Quiz-App",
-          barsize: "50",
-          grade: "95%",
-          nameclass: "progress-bar w-50"
-     },
-     {
-          name: "CMS Employee Tracker",
-          published: "Oct 28, 2023",
-          repo: "gitHub",
-          stack: "javascript",
-          urladdress: "https://github.com/gusmiller/CMS-Database",
-          imagePath: "",
-          reponame: "https://github.com/gusmiller/CMS-Database",
+          reponame: "https://github.com/gusmiller/PWA-Editor",
           barsize: "75",
           grade: "95%",
           nameclass: "progress-bar w-75"
      },
      {
+          name: "Code Quiz",
+          published: "September 4, 2023",
+          repo: "gitHub",
+          stack: "javascript",
+          urladdress: "https://gusmiller.github.io/Code-Quiz-App/",
+          imagePath: "",
+          reponame: "https://github.com/gusmiller/Code-Quiz-App",
+          barsize: "75",
+          grade: "98%",
+          nameclass: "progress-bar w-100"
+     },
+     {
+          name: "CMS Employee Tracker",
+          published: "Oct 28, 2023",
+          repo: "gitHub",
+          stack: "MySQL",
+          urladdress: "https://github.com/gusmiller/CMS-Database",
+          imagePath: "",
+          reponame: "https://github.com/gusmiller/CMS-Database",
+          barsize: "100",
+          grade: "100%",
+          nameclass: "progress-bar w-75"
+     },
+     {
           name: "Work Day Scheduler",
-          published: "June 2023",
+          published: "Sep 11, 2023",
           repo: "gitHub",
           stack: "jQuery",
           urladdress: "https://gusmiller.github.io/work_day_scheduler/",
           imagePath: "",
           reponame: "https://github.com/gusmiller/work_day_scheduler",
           barsize: "100",
-          grade: "95%",
-          nameclass: "progress-bar w-25"
+          grade: "100%",
+          nameclass: "progress-bar w-75"
      },
      {
           name: "Weather Dashboard",
-          published: "June 2023",
-          repo: "gitHub",
+          published: "October 5, 2023",
+          repo: "gitHub.io",
           stack: "javascript",
           urladdress: "https://gusmiller.github.io/Weather-dashboard/",
           imagePath: "",
           reponame: "https://github.com/gusmiller/Weather-dashboard",
           barsize: "100",
-          grade: "95%",
+          grade: "100%",
           nameclass: "progress-bar w-100"
+     },
+     {
+          name: "Password Generator",
+          published: "August 27, 2023",
+          repo: "gitHub.io",
+          stack: "javascript",
+          urladdress: "https://gusmiller.github.io/Javascripts/",
+          imagePath: "",
+          reponame: "https://github.com/gusmiller/Javascripts",
+          barsize: "100",
+          grade: "100%",
+          nameclass: "progress-bar w-100"
+     },
+     {
+          name: "Cravings",
+          published: "November 19, 2023",
+          repo: "heroku",
+          stack: "mySQL",
+          urladdress: "https://craving-510bbff9dcfd.herokuapp.com/",
+          imagePath: "",
+          reponame: "https://github.com/gusmiller/Javascripts",
+          barsize: "100",
+          grade: "95%",
+          nameclass: "progress-bar w-75"
      }
 ]
 

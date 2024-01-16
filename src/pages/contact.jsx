@@ -11,7 +11,7 @@ import ContactHeader from '../components/UI/contact/contactheader';
 
 export default function Contact() {
      return (
-          <div className="container">
+          <div className="container mt-5">
                <ContactHeader />
 
                <div className="row ">
