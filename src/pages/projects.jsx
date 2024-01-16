@@ -32,6 +32,7 @@ export default function Projects() {
                                    grade={assignments.grade}
                                    barsize={assignments.barsize}
                                    appurl={assignments.urladdress}
+                                   imageurl={assignments.imageurl}
                                    emoji={assignments.emoji}
                                    classname={assignments.nameclass} />
                          ))}

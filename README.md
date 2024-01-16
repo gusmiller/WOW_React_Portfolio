@@ -46,21 +46,22 @@ Here is my product!
 
 ## Installation
 
-React Personal Portfolio Installation
+The JATE (Just Another Text Editor) requires two tiers; Server and client. Each one requires their own independant dependancies. Please follow the instructions to install the JATE application
 
-1. Clone the Readme-bot repository
-	```js
-	git clone https://github.com/gusmiller/WOW_React_Portfolio
-	```
-2. Install NPM Packaged
-	```js
-	npm run build
-	```
-3. Run CLI application
-	```js
-	npm run dev
-	```
-</div>
+|Name|Description |
+|---|---|
+|[wow-portfolio][wowportfolio]| Navigate to WOW React Portfolio github repo and clone application. |
+|[install-dependancies][]| Once main depandancies have been installed then run this script: `npm run install` |
+|[build-develop][] | Run script `npm run build`. This script will compile and create the application, it generates the `dist` folder with all components. |
+|[dev][] | Once application has been built we can run script `npm run dev` to execute application. |
+
+[wowportfolio]: https://github.com/gusmiller/WOW_React_Portfolio
+[main-dependancies]: main-dependacies
+[install-dependancies]: install-dependacies
+[build-develop]: build-develop
+[start]: start
+
+**NOTE** the application should be deployed into Netlify. You can review their [documentation](https://vitejs.dev/guide/static-deploy.html#netlify) for further details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +83,7 @@ The purpose of this React Portfolio is to demonstrate possible employeers what I
 
 Do not hesitate in contacting me, Gustavo Miller - gustavo.miller@miller-hs.com.
 
-You may find the application at: [https://github.com/gusmiller/WOW_React_Portfolio/blob/main/README.md](https://github.com/gusmiller/WOW_React_Portfolio/blob/main/README.md)
+You may find the application at: [https://github.com/gusmiller/WOW_React_Portfolio](https://github.com/gusmiller/WOW_React_Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
