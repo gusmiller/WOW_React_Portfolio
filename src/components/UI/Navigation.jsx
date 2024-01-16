@@ -25,10 +25,10 @@ export default function Navigation() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                          <ul className="navbar-nav" id="navScrollspy">
                               <li key={1} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/' ? 'active' : ''}`} to="/" >Home</Link></li>
-                              <li key={1} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Projects' ? 'active' : ''}`} to="/Projects" >Projects</Link></li>
-                              <li key={1} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Contact' ? 'active' : ''}`} to="/Contact" >Contact</Link></li>
-                              <li key={1} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/About' ? 'active' : ''}`} to="/About" >About</Link></li>
-                              <li key={1} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Resume' ? 'active' : ''}`} to="/Resume" >Resume</Link></li>
+                              <li key={2} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Projects' ? 'active' : ''}`} to="/Projects" >Projects</Link></li>
+                              <li key={3} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Contact' ? 'active' : ''}`} to="/Contact" >Contact</Link></li>
+                              <li key={4} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/About' ? 'active' : ''}`} to="/About" >About</Link></li>
+                              <li key={5} className="nav-item"><Link className={`nav-link fs-3 ${cp === '/Resume' ? 'active' : ''}`} to="/Resume" >Resume</Link></li>
                          </ul>
                     </div>
                </div>

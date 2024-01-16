@@ -11,6 +11,7 @@ export default function ProjectCard(props) {
      return (
           <div className="col-lg-4 col-md-6 col-sm-12">
                <div className="project-card p-3 mb-5">
+                    <img src={props.imageurl} className="card-img-top card-image mb-4" />
                     <div className="d-flex justify-content-between">
                          <div className="d-flex flex-row align-items-center">
                               <div className="project-icon"> <i className={props.emoji}></i> </div>
