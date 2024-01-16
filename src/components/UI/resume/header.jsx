@@ -28,7 +28,7 @@ export default function Resumeheader() {
                     <p>Here is a copy of <a href="../assets/documents/gustavo miller@miller-hs.pdf">Gustavo Miller</a> latest resume</p>
                </div>
                <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img target="_blank" src="../public/resume.png" alt="" className="img-fluid" />
+                    <img target="_blank" src="/resume.png" alt="" className="img-fluid" />
                </div>
           </div >
      )
