@@ -36,7 +36,7 @@ React can be used to develop single-page, mobile, or server-rendered application
 Here is my product!
 
 <div style="margin-top: 15px;">
-	<img src="./assets/images/node001.png">
+	<img src="./public/wowapp.png">
 </div>
 </div>
 
@@ -59,9 +59,16 @@ The JATE (Just Another Text Editor) requires two tiers; Server and client. Each 
 [main-dependancies]: main-dependacies
 [install-dependancies]: install-dependacies
 [build-develop]: build-develop
-[start]: start
+[dev]: start
 
 **NOTE** the application should be deployed into Netlify. You can review their [documentation](https://vitejs.dev/guide/static-deploy.html#netlify) for further details.
+
+<details style="margin-bottom: 25px; margin-top: 25px;">
+	<summary>Once you have installed the dependancies and build he application you should have a screen like the following. (click on arrow to expand)</summary>
+	<div style="margin-top: 15px;">
+	     <img src="./public/buildapp.png">
+     </div>
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
