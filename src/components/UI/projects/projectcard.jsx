@@ -9,7 +9,7 @@
  *******************************************************************/
 export default function ProjectCard(props) {
      return (
-          <div className="col-md-4">
+          <div className="col-lg-4 col-md-6 col-sm-12">
                <div className="project-card p-3 mb-5">
                     <div className="d-flex justify-content-between">
                          <div className="d-flex flex-row align-items-center">

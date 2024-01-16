@@ -19,6 +19,8 @@ import Contact from './pages/contact';
 import About from './pages/about';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'font-awesome/css/font-awesome.css'
 import './index.css'
 
 // Define the accessible routes, and which components respond to which URL

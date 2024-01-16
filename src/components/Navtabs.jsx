@@ -14,10 +14,10 @@ export default function Navtabs() {
      return (
           <Navigation
                links={[
-                    <Link key={1} className="nav-link text-light fs-4" to="/">Home</Link>,
-                    <Link key={2} className="nav-link text-light fs-4" to="/Projects">Projects</Link>,
-                    <Link key={3} className="nav-link text-light fs-4" to="/Contact">Contact</Link>,
-                    <Link key={4} className="nav-link text-light fs-4" to="/About">About</Link>,
+                    <li key={1} className="nav-item"><Link className="nav-link fs-3" to="/" id="home">Home</Link></li>,
+                    <li key={2} className="nav-item"><Link className="nav-link fs-3" to="/Projects" id="project">Projects</Link></li>,
+                    <li key={3} className="nav-item"><Link className="nav-link fs-3" to="/Contact" id="contact">Contact</Link></li>,
+                    <li key={4} className="nav-item"><Link className="nav-link fs-3" to="/About" id="abou">About</Link></li>,
                ]}
           />
      );

@@ -6,15 +6,19 @@
  * 
  * Filename: Navigation.jsx
  * Date : 1/14/2024 17:03:48 PM
- * 
- * 
  *******************************************************************/
 export default function Navigation({ links }) {
      return (
-          <nav className="navbar navbar-expand-lg bg-secondary fixed-top">
-               <div className="container-fluid">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <nav className="navbar bg-primary navbar-dark navbar-expand-lg fixed-top">
+               <div className="container">
+                    <a to="/" className="navbar-brand"><i className="fa fa-cross" aria-hidden="true"></i> Gustavo Miller</a>
+                    <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                         <ul className="navbar-nav" id="navScrollspy">
                               {links.map((link) => link)}
                          </ul>
                     </div>
