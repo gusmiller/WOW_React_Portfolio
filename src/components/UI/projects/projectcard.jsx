@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
                <div className="project-card p-3 mb-5">
                     <div className="d-flex justify-content-between">
                          <div className="d-flex flex-row align-items-center">
-                              <div className="project-icon"> <i className="bx bxl-mailchimp"></i> </div>
+                              <div className="project-icon"> <i className={props.emoji}></i> </div>
                               <div className="ms-2 c-details">
                                    <h6 className="mb-0">{props.repo}</h6> <span>{props.published}</span>
                               </div>

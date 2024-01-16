@@ -18,7 +18,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/PWA-Editor",
           barsize: "75",
           grade: "95%",
-          nameclass: "progress-bar w-75"
+          nameclass: "progress-bar w-75",
+          emoji: "bx bxl-linkedin"
      },
      {
           name: "Code Quiz",
@@ -30,7 +31,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/Code-Quiz-App",
           barsize: "75",
           grade: "98%",
-          nameclass: "progress-bar w-100"
+          nameclass: "progress-bar w-100",
+          emoji: "bx bxl-linkedin"
      },
      {
           name: "CMS Employee Tracker",
@@ -42,7 +44,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/CMS-Database",
           barsize: "100",
           grade: "100%",
-          nameclass: "progress-bar w-75"
+          nameclass: "progress-bar w-75",
+          emoji: "bx bxl-mailchimp"
      },
      {
           name: "Work Day Scheduler",
@@ -54,7 +57,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/work_day_scheduler",
           barsize: "100",
           grade: "100%",
-          nameclass: "progress-bar w-75"
+          nameclass: "progress-bar w-75",
+          emoji: "bx bxl-linkedin"
      },
      {
           name: "Weather Dashboard",
@@ -66,7 +70,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/Weather-dashboard",
           barsize: "100",
           grade: "100%",
-          nameclass: "progress-bar w-100"
+          nameclass: "progress-bar w-100",
+          emoji: "bx bxl-mastercard"
      },
      {
           name: "Password Generator",
@@ -78,7 +83,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/Javascripts",
           barsize: "100",
           grade: "100%",
-          nameclass: "progress-bar w-100"
+          nameclass: "progress-bar w-100",
+          emoji: "bx bxl-jsfiddle"
      },
      {
           name: "Cravings",
@@ -90,7 +96,8 @@ var assignments = [
           reponame: "https://github.com/gusmiller/Javascripts",
           barsize: "100",
           grade: "95%",
-          nameclass: "progress-bar w-75"
+          nameclass: "progress-bar w-75",
+          emoji: "bx bxl-mailchimp"
      }
 ]
 
