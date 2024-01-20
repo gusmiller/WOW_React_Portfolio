@@ -37,20 +37,6 @@ var assignments = [
           emoji: "bx bxl-linkedin"
      },
      {
-          name: "CMS Employee Tracker",
-          published: "Oct 28, 2023",
-          repo: "gitHub",
-          stack: "MySQL",
-          urladdress: "https://github.com/gusmiller/CMS-Database",
-          imagePath: "",
-          reponame: "https://github.com/gusmiller/CMS-Database",
-          barsize: "100",
-          imageurl: "/employeetracker.png",
-          grade: "100%",
-          nameclass: "progress-bar w-75",
-          emoji: "bx bxl-mailchimp"
-     },
-     {
           name: "Work Day Scheduler",
           published: "Sep 11, 2023",
           repo: "gitHub",
